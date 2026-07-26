@@ -23,7 +23,7 @@ const resetGame = () => {
     msgContainer.classList.add("hide");
 };
 
-Implement player turn handling and move events
+// Implement player turn handling and move events
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
        if(turnO) {   
@@ -46,7 +46,7 @@ const disableBoxes = () => {
     }
 };
 
-
+Add function to reset and enable game boxes
 const enableBoxes = () => {
     for(let box of boxes) {
         box.disabled = false;
