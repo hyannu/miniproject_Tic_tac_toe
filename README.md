@@ -49,3 +49,12 @@ This project helped strengthen my understanding of:
  📄 License
 
 This project is open for learning and personal use.
+
+
+👨‍💻 Author
+Annu Kumari
+
+GitHub: https://github.com/hyannu
+
+⭐ If you like this project, don't forget to give it a star!
+Thank You ........
