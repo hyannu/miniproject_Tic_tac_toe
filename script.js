@@ -23,7 +23,7 @@ const resetGame = () => {
     msgContainer.classList.add("hide");
 };
 
-
+Implement player turn handling and move events
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
        if(turnO) {   
@@ -74,7 +74,5 @@ const checkWinner = () => {
          }   
     }
 };
-
 newGameBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
-
