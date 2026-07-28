@@ -46,7 +46,7 @@ const disableBoxes = () => {
     }
 };
 
-Add function to reset and enable game boxes
+// Add function to reset and enable game boxes
 const enableBoxes = () => {
     for(let box of boxes) {
         box.disabled = false;
@@ -54,7 +54,7 @@ const enableBoxes = () => {
     }
 };
 
-
+Add winner display functionality
 const showWinner = (winner) => {
 msg.innerText = `Congratulations, Winner is ${winner}`;
 msgContainer.classList.remove("hide");
