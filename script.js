@@ -54,13 +54,14 @@ const enableBoxes = () => {
     }
 };
 
-Add winner display functionality
+// Add winner display functionality
 const showWinner = (winner) => {
 msg.innerText = `Congratulations, Winner is ${winner}`;
 msgContainer.classList.remove("hide");
 disableBoxes ();
 };
 
+"Implement winner detection and game reset"
 const checkWinner = () => {
     for (let pattern of winPatterns) {
             let pos1Val = boxes[pattern[0]].innerText;
