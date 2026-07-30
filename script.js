@@ -61,7 +61,7 @@ msgContainer.classList.remove("hide");
 disableBoxes ();
 };
 
-"Implement winner detection and game reset"
+// "Implement winner detection and game reset"
 const checkWinner = () => {
     for (let pattern of winPatterns) {
             let pos1Val = boxes[pattern[0]].innerText;
