@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
 }
-"Set page background color and center text"
+/* "Set page background color and center text" */
 body {
     background-color:#548687;
     text-align: center;
 }
-
+ "Center container content using flexbox"
 .container {
     height: 70vh;
     display: flex;
