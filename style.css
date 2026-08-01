@@ -26,7 +26,7 @@ body {
     align-items: center;
     gap: 1.5vmin;
 }
-"Style game boxes with colors and shadows"
+/* "Style game boxes with colors and shadows" */
 .box{
     height: 18vmin;
     width: 18vmin;
@@ -37,7 +37,7 @@ body {
     color: #b0413e;
     background-color: #ffffc7;
 }
-
+"Style reset button"
 #reset-btn{
     padding: 1rem;
     font-size: 1.25rem;
