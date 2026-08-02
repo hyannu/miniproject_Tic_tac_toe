@@ -55,12 +55,12 @@ body {
     border-radius: 1rem;
     border: none;
 }
-"Style game message text"
+/* "Style game message text" */
 #msg {
     color: #ffffc7;
     font-size: 5vmin ;
 }
-
+"Style message container layout"
 .msg.container {
     height: 100vmin;
     display: flex; 
