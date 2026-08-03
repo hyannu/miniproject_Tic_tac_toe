@@ -69,8 +69,7 @@ body {
     flex-direction: column;
     gap: 4rem;
 }
-
-"Add CSS class to hide elements"
+/* "Add CSS class to hide elements" */
 .hide {
     display: none;
 }
