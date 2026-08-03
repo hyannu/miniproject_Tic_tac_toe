@@ -60,7 +60,7 @@ body {
     color: #ffffc7;
     font-size: 5vmin ;
 }
-"Style message container layout"
+/* "Style message container layout" */
 .msg.container {
     height: 100vmin;
     display: flex; 
@@ -70,7 +70,7 @@ body {
     gap: 4rem;
 }
 
-
+"Add CSS class to hide elements"
 .hide {
     display: none;
 }
