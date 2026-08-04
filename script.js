@@ -1,10 +1,11 @@
-"Add DOM selectors for game controls and messages"
+// "Add DOM selectors for game controls and messages"
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
 let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
 
+"Add turn state and winning patterns"
 let turnO =true; //playerX,playerO
 
 const winPatterns =[
